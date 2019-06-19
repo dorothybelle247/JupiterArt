@@ -1,0 +1,25 @@
+body{
+   
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-image: ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKek1O5vluWRTTRyYU58uHPAzAmfol0Z-2wiNjQ5E_F9OSaNv');
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+}
+section div{
+    background-color: #683F4D;
+    height: 100vh;
+    transition: background-color 3s;
+}
+h1{
+    font-size: 5em;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    opacity: 0;
+    z-index: 2;
+}
